@@ -4,9 +4,9 @@
 
 # **Gitwar - Compete with Github**
 
-![Version](https://img.shields.io/github/package-json/v/iampavangandhi/Gitwar?color=2948ff&label=Version&style=flat-square) ![License](https://img.shields.io/github/license/iampavangandhi/Gitwar?color=2948ff&label=License&style=flat-square) ![Deployment](https://img.shields.io/github/deployments/iampavangandhi/Gitwar/gitwar?color=2948ff&label=Deployment&style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/iampavangandhi/Gitwar?color=2948ff&label=Repo%20Size&style=flat-square)
+![Version](https://img.shields.io/github/package-json/v/10Nates/Gitwar?color=2948ff&label=Version&style=flat-square) ![License](https://img.shields.io/github/license/10Nates/Gitwar?color=2948ff&label=License&style=flat-square) ![Deployment](https://img.shields.io/github/deployments/10Nates/Gitwar/gitwar?color=2948ff&label=Deployment&style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/10Nates/Gitwar?color=2948ff&label=Repo%20Size&style=flat-square)
 
-## Website : https://gitwar.herokuapp.com/
+## Website : https://gitwar-10n.onrender.com
 
 ---
 
@@ -16,7 +16,7 @@
 
 # Gitwar WebApp
 
-> ### Website : https://gitwar.herokuapp.com/
+> ### Website : https://gitwar-10n.onrender.com
 
 ## Features
 
@@ -39,7 +39,7 @@
 You need to add this in README.md file in your profile repository via Markdown syntax:
 
 ```markdown
-![](https://gitwar.herokuapp.com/badge?username=your-github-username)
+![](https://https://gitwar-10n.onrender.com/badge?username=your-github-username)
 ```
 
 > **NOTE**: Don't forget to replace example `your-github-username` parameter with real value.
@@ -66,13 +66,13 @@ You can use any valid HEX color or pick from a predefined set of named colors (`
 **Named color**
 
 ```markdown
-![](https://gitwar.herokuapp.com/badge?username=your-github-username&color=green)
+![](https://gitwar-10n.onrender.com/badge?username=your-github-username&color=green)
 ```
 
 **Hex color**
 
 ```markdown
-![](https://gitwar.herokuapp.com/badge?username=your-github-username&color=dc143c)
+![](https://gitwar-10n.onrender.com/badge?username=your-github-username&color=dc143c)
 ```
 
 > **NOTE**: HEX colors should be used without `#` symbol prefix.
@@ -89,7 +89,7 @@ The following styles are available (`flat` is the default).
 | `for-the-badge` | ![](https://img.shields.io/static/v1?label=Profile+views&message=1234567890&color=007ec6&style=for-the-badge) |
 
 ```markdown
-![](https://gitwar.herokuapp.com/badge?username=your-github-username&style=flat-square)
+![](https://gitwar-10n.onrender.com/badge?username=your-github-username&style=flat-square)
 ```
 
 ### Label
@@ -125,17 +125,11 @@ npm run dev
 - Axios (HTTP client)
 - EJS (Template Engine)
 - Github API
-- Heroku for deployment
+- Render for development
 
 ## API Credits
 
 #### Special Thanks to [Huchenme](https://github.com/huchenme) for the [Github Trending Api](https://github.com/huchenme/github-trending-api)
-
-## Deployment
-
-#### Deploy it on your own Heroku Dyno to avoid downtime.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Contributing
 
