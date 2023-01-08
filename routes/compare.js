@@ -55,6 +55,7 @@ router.post("/", async (req, res) => {
     userProfile1: userProfile1,
     userProfile2: userProfile2,
   });
+  res.end();
 });
 
 module.exports = router;

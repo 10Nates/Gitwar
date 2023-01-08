@@ -34,6 +34,7 @@ router.post("/", async (req, res) => {
   };
 
   res.status(200).render("profile", { userProfile });
+  res.end();
 });
 
 module.exports = router;

@@ -28,6 +28,7 @@ router.get("/:username", async (req, res) => {
     score: profile.score,
     url: profile.url,
   });
+  res.end();
 });
 
 module.exports = router;

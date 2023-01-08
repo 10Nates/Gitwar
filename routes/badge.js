@@ -27,6 +27,7 @@ router.get("/", async (req, res) => {
     .redirect(
       `https://img.shields.io/badge/dynamic/json?label=${label}&style=${style}&color=${color}&logo=${logo}&logoColor=${logoColor}&query=score&url=http%3A%2F%2F${HOST}%2Fapi%2F${username}`
     );
+    res.end();
 });
 
 module.exports = router;

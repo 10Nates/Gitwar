@@ -42,7 +42,6 @@ const topRouter = require("./routes/top");
 const NullRouter = require("./routes/null");
 
 // Use Routes
-const netlifyFuncs = "/.netlify/functions/server"
 app.use(netlifyFuncs + "/", indexRouter);
 app.use(netlifyFuncs + "/profile", profileRouter);
 app.use(netlifyFuncs + "/compare", compareRouter);

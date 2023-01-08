@@ -28,6 +28,7 @@ router.get("/", async (req, res) => {
   });
 
   res.status(200).render("top", { names });
+  res.end();
 });
 
 router.post("/", async (req, res) => {
