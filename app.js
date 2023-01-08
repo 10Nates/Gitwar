@@ -50,7 +50,7 @@ app.use("/api", apiRouter);
 app.use("/top", topRouter);
 app.use("/NULL", NullRouter);
 
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 
 if (!process.env.GITHUB_TOKEN) {
   // Unauthorized github requests have a rate limit 
@@ -59,4 +59,7 @@ if (!process.env.GITHUB_TOKEN) {
 }
 
 // Serverless functions (Netlify integration)
-module.exports.handler = serverless(app)
+const handler = serverless(app);
+module.exports.handler = async (context, req) => {
+  context.res = await handler(context, req);
+}
