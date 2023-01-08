@@ -42,13 +42,13 @@ const topRouter = require("./routes/top");
 const NullRouter = require("./routes/null");
 
 // Use Routes
-app.use(netlifyFuncs + "/", indexRouter);
-app.use(netlifyFuncs + "/profile", profileRouter);
-app.use(netlifyFuncs + "/compare", compareRouter);
-app.use(netlifyFuncs + "/badge", badgeRouter);
-app.use(netlifyFuncs + "/api", apiRouter);
-app.use(netlifyFuncs + "/top", topRouter);
-app.use(netlifyFuncs + "/NULL", NullRouter);
+app.use("/", indexRouter);
+app.use("/profile", profileRouter);
+app.use("/compare", compareRouter);
+app.use("/badge", badgeRouter);
+app.use("/api", apiRouter);
+app.use("/top", topRouter);
+app.use("/NULL", NullRouter);
 
 // const PORT = process.env.PORT || 3000;
 
