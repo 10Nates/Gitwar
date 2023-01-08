@@ -49,7 +49,7 @@ app.use("/api", apiRouter);
 app.use("/top", topRouter);
 app.use("/NULL", NullRouter);
 
-// const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 if (!process.env.GITHUB_TOKEN) {
   // Unauthorized github requests have a rate limit 
