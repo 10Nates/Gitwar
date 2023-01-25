@@ -4,7 +4,7 @@
 
 # **Gitwar - Compete with Github**
 
-![Version](https://img.shields.io/github/package-json/v/10Nates/Gitwar?color=2948ff&label=Version&style=flat-square) ![License](https://img.shields.io/github/license/10Nates/Gitwar?color=2948ff&label=License&style=flat-square) ![Deployment](https://img.shields.io/github/deployments/10Nates/Gitwar/gitwar?color=2948ff&label=Deployment&style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/10Nates/Gitwar?color=2948ff&label=Repo%20Size&style=flat-square)
+![Version](https://img.shields.io/github/package-json/v/10Nates/Gitwar?color=2948ff&label=Version&style=flat-square) ![License](https://img.shields.io/github/license/10Nates/Gitwar?color=2948ff&label=License&style=flat-square) ![Deployment](https://img.shields.io/website-up-down-green-red/https/gitwar-10n.onrender.com.svg?label=Deployment&style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/10Nates/Gitwar?color=2948ff&label=Repo%20Size&style=flat-square)
 
 ## Website : https://gitwar-10n.onrender.com
 
