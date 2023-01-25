@@ -1,7 +1,7 @@
 // Null Route
 
-const express = require("express");
-const router = express.Router();
+const { Router } = require("express");
+const router = Router();
 
 router.get("/", function (req, res, next) {
   res.status(404).render("error");

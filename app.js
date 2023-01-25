@@ -2,7 +2,7 @@
 
 // Includes
 const express = require("express");
-const dotenv = require("dotenv");
+// const dotenv = require("dotenv");
 const app = express();
 const expressLayouts = require("express-ejs-layouts");
 
@@ -61,3 +61,11 @@ if (!process.env.GITHUB_TOKEN) {
 app.listen(PORT, () => {
   console.log(`Server is up and running at Port ${PORT}`);
 });
+
+function gracefulExit(s) {
+  console.log("Exiting ("+ s + ")...");
+  process.exit(0);
+}
+
+process.on("SIGINT", gracefulExit);
+process.on("SIGTERM", gracefulExit);

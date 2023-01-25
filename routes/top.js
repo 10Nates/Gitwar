@@ -1,7 +1,7 @@
 // Top Route
 
-const express = require("express");
-const router = express.Router();
+const { Router } = require("express");
+const router = Router();
 
 const { fetchRepositories } = require("../utils/fetchTrending");
 

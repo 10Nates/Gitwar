@@ -1,4 +1,4 @@
-const cheerio = require("cheerio");
+const { load } = require("cheerio");
 const fetch = require("node-fetch");
 const { omitBy, isNil } = require("lodash");
 
@@ -24,7 +24,7 @@ async function fetchRepositories({
     language
   )}?since=${since}&spoken_language_code=${encodeURIComponent(spokenLanguage)}`;
   const data = await fetch(url);
-  const $ = cheerio.load(await data.text());
+  const $ = load(await data.text());
   return $(".Box article.Box-row")
     .get()
 
