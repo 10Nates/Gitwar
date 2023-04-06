@@ -1,7 +1,6 @@
 // Top Route
-
-const { Router } = require("express");
-const router = Router();
+const express = require("express");
+const router = express.Router();
 
 const { fetchRepositories } = require("../utils/fetchTrending");
 
@@ -14,7 +13,7 @@ router.get("/", async (req, res) => {
     spokenLanguage: "english",
   });
 
-  await data.map(function (elem) {
+  await data.map((elem) => {
     names[index] = {
       avatar: elem.avatar,
       name: elem.name,
@@ -41,7 +40,7 @@ router.post("/", async (req, res) => {
     spokenLanguage: "english",
   });
 
-  await data.map(function (elem) {
+  await data.map((elem) => {
     names[index] = {
       avatar: elem.avatar,
       name: elem.name,
